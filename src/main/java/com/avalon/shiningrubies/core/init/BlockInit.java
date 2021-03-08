@@ -58,6 +58,11 @@ public class BlockInit {
 	public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", 
 			() -> new Block(Block.Properties.from(Blocks.ANCIENT_DEBRIS).harvestLevel(4).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));
 	
+	public static final RegistryObject<Block> TITANIUM_LANTERN = BLOCKS.register("titanium_lantern", 
+			() -> new LanternBlock(AbstractBlock.Properties.create(Material.IRON).setRequiresTool().hardnessAndResistance(3.5F).sound(SoundType.LANTERN).setLightLevel((state) -> {
+			      return 15;
+			   }).notSolid()));
+	
 	
 	public static AbstractBlock.Properties getProperties(Material materialIn, float hardnessAndResistanceIn) {
         return getProperties(materialIn, hardnessAndResistanceIn, hardnessAndResistanceIn);

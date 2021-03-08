@@ -21,6 +21,7 @@ public class ClientEventBusSubscriber {
 		RenderTypeLookup.setRenderLayer(BlockInit.RUBY_WALL_TORCH.get(), RenderType.getCutoutMipped());
 		
 		RenderTypeLookup.setRenderLayer(BlockInit.RUBY_LANTERN.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.TITANIUM_LANTERN.get(), RenderType.getCutoutMipped());
 
 
 ;

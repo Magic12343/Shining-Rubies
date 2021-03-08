@@ -51,6 +51,9 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> TITANIUM_ORE = ITEMS.register("titanium_ore",
 			() -> new BlockItem(BlockInit.TITANIUM_ORE.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> TITANIUM_LANTERN = ITEMS.register("titanium_lantern",
+			() -> new BlockItem(BlockInit.TITANIUM_LANTERN.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
 
 
 }
