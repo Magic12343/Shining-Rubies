@@ -2,6 +2,7 @@ package com.avalon.shiningrubies.core.init;
 
 import com.avalon.shiningrubies.ShiningRubies;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.HoeItem;
@@ -11,6 +12,7 @@ import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
+import net.minecraft.item.WallOrFloorItem;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,9 +35,9 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block",
 			() -> new BlockItem(BlockInit.RUBY_BLOCK.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
-	public static final RegistryObject<BlockItem> RUBY_TORCH = ITEMS.register("ruby_torch",
-			() -> new BlockItem(BlockInit.RUBY_TORCH.get(),
-					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<WallOrFloorItem> RUBY_TORCH = ITEMS.register("ruby_torch",
+			() -> new WallOrFloorItem(BlockInit.RUBY_TORCH.get(), BlockInit.RUBY_WALL_TORCH.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
 	public static final RegistryObject<BlockItem> RUBY_LANTERN = ITEMS.register("ruby_lantern",
 			() -> new BlockItem(BlockInit.RUBY_LANTERN.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));

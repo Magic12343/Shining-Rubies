@@ -1,9 +1,14 @@
 package com.avalon.shiningrubies.core.init;
 
+import java.util.function.ToIntFunction;
+
 import com.avalon.shiningrubies.ShiningRubies;
+import com.avalon.shiningrubies.common.blocks.RubyTorchBlock;
+import com.avalon.shiningrubies.common.blocks.RubyWallTorchBlock;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.CarvedPumpkinBlock;
 import net.minecraft.block.ChainBlock;
@@ -12,9 +17,11 @@ import net.minecraft.block.LanternBlock;
 import net.minecraft.block.PaneBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.TorchBlock;
+import net.minecraft.block.WallTorchBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.particles.ParticleTypes;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,9 +37,9 @@ public class BlockInit {
 	public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", 
 			() -> new Block(Block.Properties.from(Blocks.DIAMOND_BLOCK).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(6.0f, 5.0f)));
 	public static final RegistryObject<Block> RUBY_TORCH = BLOCKS.register("ruby_torch", 
-			() -> new TorchBlock(AbstractBlock.Properties.create(Material.MISCELLANEOUS).doesNotBlockMovement().zeroHardnessAndResistance().setLightLevel((state) -> {
-			      return 14;
-			   }).sound(SoundType.WOOD), ParticleTypes.FLAME));	
+			() -> new RubyTorchBlock(getProperties(Blocks.TORCH)));
+	public static final RegistryObject<Block> RUBY_WALL_TORCH = BLOCKS.register("ruby_wall_torch", 
+			() -> new RubyWallTorchBlock(getProperties(BlockInit.RUBY_TORCH.get()).lootFrom(RUBY_TORCH.get())));
 	public static final RegistryObject<Block> RUBY_LANTERN = BLOCKS.register("ruby_lantern", 
 			() -> new LanternBlock(AbstractBlock.Properties.create(Material.IRON).setRequiresTool().hardnessAndResistance(3.5F).sound(SoundType.LANTERN).setLightLevel((state) -> {
 			      return 15;
@@ -45,5 +52,23 @@ public class BlockInit {
 			() -> new Block(AbstractBlock.Properties.create(Material.GLASS, MaterialColor.QUARTZ).hardnessAndResistance(0.3F).sound(SoundType.GLASS).setLightLevel((state) -> {
 			      return 15;
 			   })));
+	public static AbstractBlock.Properties getProperties(Material materialIn, float hardnessAndResistanceIn) {
+        return getProperties(materialIn, hardnessAndResistanceIn, hardnessAndResistanceIn);
+    }
+
+    public static AbstractBlock.Properties getProperties(Material materialIn, float hardnessIn, float resistanceIn) {
+        return AbstractBlock.Properties.create(materialIn).hardnessAndResistance(hardnessIn, resistanceIn);
+    }
+    public static AbstractBlock.Properties getProperties(Material materialIn) {
+        return AbstractBlock.Properties.create(materialIn).zeroHardnessAndResistance();
+    }
+
+    public static AbstractBlock.Properties getProperties(Block block) {
+        return AbstractBlock.Properties.from(block);
+    }
+
+    private static ToIntFunction<BlockState> getLightValueLit(int lightValue) {
+        return (state) -> state.get(BlockStateProperties.LIT) ? lightValue : 0;
+    }
 
 }

@@ -17,6 +17,10 @@ public class ClientEventBusSubscriber {
 	@SubscribeEvent
 	public static void clientSetup(FMLClientSetupEvent event) {
 
+		RenderTypeLookup.setRenderLayer(BlockInit.RUBY_TORCH.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.RUBY_WALL_TORCH.get(), RenderType.getCutoutMipped());
+		
+		RenderTypeLookup.setRenderLayer(BlockInit.RUBY_LANTERN.get(), RenderType.getCutoutMipped());
 
 
 ;
