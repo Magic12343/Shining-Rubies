@@ -1,10 +1,10 @@
-[07mar2021 23:02:02.414] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 35.1.4, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\Magic\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[07mar2021 23:02:02.418] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_261 by Oracle Corporation
-[07mar2021 23:02:02.790] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[07mar2021 23:02:02.822] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Magic/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.2/1cf212283d26f706fd3074318870bebd14d2a9ed/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
-[07mar2021 23:02:04.106] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Magic\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[07mar2021 23:02:08.244] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07mar2021 23:02:09.227] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+[07mar2021 23:18:03.309] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 35.1.4, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\Magic\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[07mar2021 23:18:03.313] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_261 by Oracle Corporation
+[07mar2021 23:18:03.782] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[07mar2021 23:18:03.827] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Magic/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.2/1cf212283d26f706fd3074318870bebd14d2a9ed/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[07mar2021 23:18:05.403] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Magic\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[07mar2021 23:18:10.597] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07mar2021 23:18:11.579] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
 com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
 	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
@@ -23,34 +23,34 @@ com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
-[07mar2021 23:02:09.233] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[07mar2021 23:02:09.290] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[07mar2021 23:02:09.878] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.4, for MC 1.16.4 with MCP 20201102.104115
-[07mar2021 23:02:09.878] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.4 Initialized
-[07mar2021 23:02:11.271] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[07mar2021 23:02:11.352] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[07mar2021 23:02:11.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[07mar2021 23:02:12.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 35.1.4 Target: null
-[07mar2021 23:02:17.580] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[07mar2021 23:02:17.580] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[07mar2021 23:02:17.800] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[07mar2021 23:02:17.948] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[07mar2021 23:02:17.949] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[07mar2021 23:02:17.952] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[07mar2021 23:02:17.955] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[07mar2021 23:02:17.956] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[07mar2021 23:02:17.960] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[07mar2021 23:02:18.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[07mar2021 23:02:18.572] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[07mar2021 23:02:18.573] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[07mar2021 23:02:19.429] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[07mar2021 23:02:43.835] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[07mar2021 23:02:43.836] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07mar2021 23:02:43.837] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07mar2021 23:02:43.837] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[07mar2021 23:02:43.838] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07mar2021 23:02:43.841] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar, main
-[07mar2021 23:02:44.811] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_pickaxe_smithing
+[07mar2021 23:18:11.587] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07mar2021 23:18:11.677] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[07mar2021 23:18:12.427] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.4, for MC 1.16.4 with MCP 20201102.104115
+[07mar2021 23:18:12.427] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.4 Initialized
+[07mar2021 23:18:13.867] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[07mar2021 23:18:13.916] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[07mar2021 23:18:13.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07mar2021 23:18:15.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 35.1.4 Target: null
+[07mar2021 23:18:20.318] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[07mar2021 23:18:20.319] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[07mar2021 23:18:20.580] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[07mar2021 23:18:20.731] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[07mar2021 23:18:20.732] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07mar2021 23:18:20.735] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07mar2021 23:18:20.740] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07mar2021 23:18:20.741] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07mar2021 23:18:20.742] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07mar2021 23:18:21.535] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[07mar2021 23:18:21.543] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07mar2021 23:18:21.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07mar2021 23:18:22.479] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[07mar2021 23:18:38.376] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07mar2021 23:18:38.376] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07mar2021 23:18:38.377] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07mar2021 23:18:38.378] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07mar2021 23:18:38.378] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07mar2021 23:18:38.380] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar, main
+[07mar2021 23:18:39.325] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_pickaxe_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_pickaxe'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:284) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_261]
@@ -86,7 +86,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_picka
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1022) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
@@ -102,7 +102,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_picka
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
-[07mar2021 23:02:44.821] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_sword_smithing
+[07mar2021 23:18:39.335] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_sword_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_sword'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:284) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_261]
@@ -138,7 +138,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_sword
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1022) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
@@ -154,7 +154,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_sword
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
-[07mar2021 23:02:44.835] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_axe_smithing
+[07mar2021 23:18:39.351] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_axe_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_axe'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:284) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_261]
@@ -190,7 +190,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_axe'
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1022) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
@@ -206,7 +206,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_axe'
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
-[07mar2021 23:02:44.839] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_hoe_smithing
+[07mar2021 23:18:39.356] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_hoe_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_hoe'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:284) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_261]
@@ -242,7 +242,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_hoe'
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1022) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
@@ -258,7 +258,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_hoe'
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
-[07mar2021 23:02:44.841] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_shovel_smithing
+[07mar2021 23:18:39.357] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:rubyrithe_shovel_smithing
 com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_shovel'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:284) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_261]
@@ -294,7 +294,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_shove
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:89) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.MainWindow.flipFrame(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1022) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:612) ~[forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
@@ -310,75 +310,60 @@ com.google.gson.JsonSyntaxException: Unknown item 'shiningrubies:rubyrithe_shove
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
-[07mar2021 23:02:44.843] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[07mar2021 23:02:45.642] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[07mar2021 23:02:45.779] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[07mar2021 23:02:46.561] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07mar2021 23:02:46.581] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.4
-[07mar2021 23:02:46.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[07mar2021 23:02:46.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[07mar2021 23:02:47.145] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[07mar2021 23:02:47.286] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[07mar2021 23:02:47.412] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 668 ms
-[07mar2021 23:02:48.211] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[07mar2021 23:02:50.240] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[07mar2021 23:02:50.263] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7fa6ebe8
-[07mar2021 23:02:50.274] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:5ce025fe] logged in with entity id 180 at (3.2581488889906334, 64.0, -5.939264653663588)
-[07mar2021 23:02:50.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[07mar2021 23:02:50.486] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[07mar2021 23:02:50.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:02:50.577] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[07mar2021 23:02:50.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:02:50.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:03:01.134] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[07mar2021 23:03:01.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:03:01.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:03:01.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:04:23.896] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Reloaded resource packs
-[07mar2021 23:04:23.899] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[07mar2021 23:04:23.942] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[07mar2021 23:04:23.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:04:23.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:04:23.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:04:26.245] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[07mar2021 23:04:26.246] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[07mar2021 23:04:26.423] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[07mar2021 23:04:26.516] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[07mar2021 23:04:26.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[07mar2021 23:04:26.520] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[07mar2021 23:04:26.523] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[07mar2021 23:04:26.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[07mar2021 23:04:26.526] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[07mar2021 23:04:26.697] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[07mar2021 23:04:26.699] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[07mar2021 23:04:26.700] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[07mar2021 23:04:32.357] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2021-03-07_23.04.32.png
-[07mar2021 23:04:33.334] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[07mar2021 23:04:33.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:04:33.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:04:33.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:04:37.149] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2021-03-07_23.04.37.png
-[07mar2021 23:04:38.033] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[07mar2021 23:04:38.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:04:38.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:04:38.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:05:50.934] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[07mar2021 23:05:50.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:05:50.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:05:50.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:05:51.588] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[07mar2021 23:05:51.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[07mar2021 23:05:51.592] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[07mar2021 23:05:51.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[07mar2021 23:05:51.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[07mar2021 23:05:51.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[07mar2021 23:05:51.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07mar2021 23:05:51.774] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (4)): All chunks are saved
-[07mar2021 23:05:51.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07mar2021 23:05:51.775] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07mar2021 23:05:51.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07mar2021 23:05:51.775] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07mar2021 23:05:51.785] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (4)): All chunks are saved
-[07mar2021 23:05:51.790] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07mar2021 23:05:51.790] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07mar2021 23:05:52.910] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[07mar2021 23:18:39.359] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[07mar2021 23:18:40.162] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[07mar2021 23:18:40.292] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[07mar2021 23:18:41.097] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07mar2021 23:18:41.120] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.4
+[07mar2021 23:18:41.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07mar2021 23:18:41.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07mar2021 23:18:41.724] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[07mar2021 23:18:41.858] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[07mar2021 23:18:41.958] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 668 ms
+[07mar2021 23:18:42.598] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[07mar2021 23:18:44.706] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[07mar2021 23:18:44.730] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@e0a1420
+[07mar2021 23:18:44.739] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:e4a9995f] logged in with entity id 184 at (2.108123450219107, 64.0, -3.300000011920929)
+[07mar2021 23:18:44.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[07mar2021 23:18:44.950] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07mar2021 23:18:44.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07mar2021 23:18:45.043] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[07mar2021 23:18:45.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07mar2021 23:18:45.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07mar2021 23:19:02.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Ice Bucket Challenge]
+[07mar2021 23:19:02.903] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Ice Bucket Challenge]
+[07mar2021 23:19:02.931] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
+[07mar2021 23:19:17.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [We Need to Go Deeper]
+[07mar2021 23:19:17.576] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [We Need to Go Deeper]
+[07mar2021 23:19:17.626] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
+[07mar2021 23:19:17.827] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
+[07mar2021 23:19:20.147] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[07mar2021 23:19:25.606] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[07mar2021 23:19:26.140] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[07mar2021 23:19:41.352] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2021-03-07_23.19.41.png
+[07mar2021 23:19:43.322] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[07mar2021 23:19:51.805] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
+[07mar2021 23:19:58.784] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2021-03-07_23.19.58.png
+[07mar2021 23:20:04.812] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
+[07mar2021 23:20:05.412] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[07mar2021 23:20:12.976] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2021-03-07_23.20.12.png
+[07mar2021 23:20:15.401] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07mar2021 23:20:15.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07mar2021 23:20:15.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07mar2021 23:20:15.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07mar2021 23:20:17.267] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[07mar2021 23:20:17.305] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[07mar2021 23:20:17.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[07mar2021 23:20:17.310] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[07mar2021 23:20:17.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07mar2021 23:20:17.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07mar2021 23:20:17.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07mar2021 23:20:17.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07mar2021 23:20:17.409] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (4)): All chunks are saved
+[07mar2021 23:20:17.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07mar2021 23:20:18.152] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07mar2021 23:20:18.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07mar2021 23:20:18.153] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07mar2021 23:20:18.164] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (4)): All chunks are saved
+[07mar2021 23:20:18.170] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07mar2021 23:20:18.175] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

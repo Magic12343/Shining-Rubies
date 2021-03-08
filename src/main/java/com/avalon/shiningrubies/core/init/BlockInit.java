@@ -32,6 +32,7 @@ public class BlockInit {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
 			ShiningRubies.MOD_ID);
 
+	//Ruby
 	public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", 
 			() -> new Block(Block.Properties.from(Blocks.DIAMOND_ORE).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));
 	public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", 
@@ -52,6 +53,12 @@ public class BlockInit {
 			() -> new Block(AbstractBlock.Properties.create(Material.GLASS, MaterialColor.QUARTZ).hardnessAndResistance(0.3F).sound(SoundType.GLASS).setLightLevel((state) -> {
 			      return 15;
 			   })));
+	
+	//Titanium
+	public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", 
+			() -> new Block(Block.Properties.from(Blocks.ANCIENT_DEBRIS).harvestLevel(4).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));
+	
+	
 	public static AbstractBlock.Properties getProperties(Material materialIn, float hardnessAndResistanceIn) {
         return getProperties(materialIn, hardnessAndResistanceIn, hardnessAndResistanceIn);
     }

@@ -47,6 +47,10 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> CAVE_LANTERN = ITEMS.register("cave_lantern",
 			() -> new BlockItem(BlockInit.CAVE_LANTERN.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	
+	public static final RegistryObject<BlockItem> TITANIUM_ORE = ITEMS.register("titanium_ore",
+			() -> new BlockItem(BlockInit.TITANIUM_ORE.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
 
 }
