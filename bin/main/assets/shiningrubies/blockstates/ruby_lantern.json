@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "shiningrubies:block/ruby_lantern"
+    },
+    "hanging=true": {
+      "model": "shiningrubies:block/ruby_lantern_hanging"
+    }
+  }
+}

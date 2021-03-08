@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "glasscraftery:block/soul_glass_lantern"
+    },
+    "hanging=true": {
+      "model": "glasscraftery:block/soul_glass_lantern_hanging"
+    }
+  }
+}

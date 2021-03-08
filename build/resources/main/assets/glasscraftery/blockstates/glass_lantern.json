@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "glasscraftery:block/glass_lantern"
+    },
+    "hanging=true": {
+      "model": "glasscraftery:block/glass_lantern_hanging"
+    }
+  }
+}
