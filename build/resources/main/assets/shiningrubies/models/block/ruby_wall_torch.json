@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch_wall",
+  "textures": {
+    "torch": "shiningrubies:blocks/ruby_torch"
+  }
+}

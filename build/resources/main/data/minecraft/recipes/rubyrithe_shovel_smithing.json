@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "shiningrubies:ruby"
+  },
+  "result": {
+    "item": "shiningrubies:rubyrithe_shovel"
+  }
+}

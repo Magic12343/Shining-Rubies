@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_side_alt",
-  "textures": {
-    "pane": "glasscraftery:blocks/jungle_window",
-    "edge": "glasscraftery:blocks/window_air"
-  }
-}

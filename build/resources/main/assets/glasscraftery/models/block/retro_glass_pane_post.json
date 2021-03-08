@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_post",
-  "textures": {
-    "pane": "glasscraftery:blocks/retro_glass",
-    "edge": "minecraft:block/glass_pane_top"
-  }
-}

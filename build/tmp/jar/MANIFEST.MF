@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: Glass Craftery
+Implementation-Title: Shining Rubies
 Implementation-Version: 1.0
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2021-03-07T18:23:56-0300
+Implementation-Timestamp: 2021-03-08T17:06:45-0300
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 
