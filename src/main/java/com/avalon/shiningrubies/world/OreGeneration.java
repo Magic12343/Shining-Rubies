@@ -24,12 +24,12 @@ public class OreGeneration {
 		if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
 					BlockInit.RUBY_ORE.get().getDefaultState(), 2, 5, 15, 5);
-			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_NETHER,
-					BlockInit.TITANIUM_ORE.get().getDefaultState(), 20, 5, 50, 60);
+			if (!(event.getCategory().equals(Biome.Category.NETHER))) {
+				generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_NETHER,
+						BlockInit.TITANIUM_ORE.get().getDefaultState(), 2, 5, 15, 5);
 		
 			
-		}
-		
+		}}
 	}
 	
 	
