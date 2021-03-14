@@ -30,6 +30,7 @@ public class ShiningRubies {
 		BlockInit.BLOCKS.register(bus);
 
 		MinecraftForge.EVENT_BUS.register(this);
+		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 		
 	}
 
