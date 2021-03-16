@@ -15,18 +15,21 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.TopSolidRangeConfig;
 import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 
-
+@EventBusSubscriber
 public class OreGeneration {
-
+	@SubscribeEvent
 	public static void generateOres(final BiomeLoadingEvent event) {
 		if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-					BlockInit.RUBY_ORE.get().getDefaultState(), 2, 5, 15, 5);
-			if (!(event.getCategory().equals(Biome.Category.NETHER))) {
+					BlockInit.RUBY_ORE.get().getDefaultState(), 30, 5, 15, 60);
+			
+		if (!(event.getCategory().equals(Biome.Category.THEEND))) {
 				generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_NETHER,
-						BlockInit.TITANIUM_ORE.get().getDefaultState(), 2, 5, 15, 5);
+						BlockInit.TITANIUM_ORE.get().getDefaultState(), 9, 10, 150, 16);
 		
 			
 		}}

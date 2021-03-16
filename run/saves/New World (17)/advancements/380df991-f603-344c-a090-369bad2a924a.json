@@ -1,0 +1,48 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2021-03-14 20:20:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-03-14 20:20:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-03-14 20:20:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-03-14 20:20:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-03-14 20:20:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2021-03-14 20:21:20 -0300",
+      "minecraft:nether_wastes": "2021-03-14 20:20:36 -0300",
+      "minecraft:soul_sand_valley": "2021-03-14 20:21:21 -0300",
+      "minecraft:basalt_deltas": "2021-03-14 20:20:29 -0300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_mountains": "2021-03-14 20:18:06 -0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2584
+}
