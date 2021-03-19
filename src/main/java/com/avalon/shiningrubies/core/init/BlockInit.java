@@ -12,6 +12,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.CarvedPumpkinBlock;
 import net.minecraft.block.ChainBlock;
+import net.minecraft.block.DoorBlock;
 import net.minecraft.block.GlassBlock;
 import net.minecraft.block.LanternBlock;
 import net.minecraft.block.PaneBlock;
@@ -37,6 +38,8 @@ public class BlockInit {
 			() -> new Block(Block.Properties.from(Blocks.DIAMOND_ORE).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));
 	public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", 
 			() -> new Block(Block.Properties.from(Blocks.DIAMOND_BLOCK).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(6.0f, 5.0f)));
+	public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", 
+			() -> new Block(Block.Properties.from(Blocks.NETHERITE_BLOCK).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(6.0f, 5.0f)));
 	public static final RegistryObject<Block> RUBY_TORCH = BLOCKS.register("ruby_torch", 
 			() -> new RubyTorchBlock(getProperties(Blocks.TORCH)));
 	public static final RegistryObject<Block> RUBY_WALL_TORCH = BLOCKS.register("ruby_wall_torch", 
@@ -62,7 +65,12 @@ public class BlockInit {
 			() -> new LanternBlock(AbstractBlock.Properties.create(Material.IRON).setRequiresTool().hardnessAndResistance(3.5F).sound(SoundType.LANTERN).setLightLevel((state) -> {
 			      return 15;
 			   }).notSolid()));
-	
+	public static final RegistryObject<Block> TITANIUM_DOOR = BLOCKS.register("titanium_door", 
+			() -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.IRON).setRequiresTool().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid()));
+	public static final RegistryObject<Block> TITANIUM_BARS = BLOCKS.register("titanium_bars", 
+			() -> new PaneBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.AIR).setRequiresTool().hardnessAndResistance(5.0F, 6.0F).sound(SoundType.METAL).notSolid()));
+	public static final RegistryObject<Block> TITANIUM_CHAIN = BLOCKS.register("titanium_bars", 
+			() -> new ChainBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.AIR).setRequiresTool().hardnessAndResistance(5.0F, 6.0F).sound(SoundType.CHAIN).notSolid()));
 	
 	public static AbstractBlock.Properties getProperties(Material materialIn, float hardnessAndResistanceIn) {
         return getProperties(materialIn, hardnessAndResistanceIn, hardnessAndResistanceIn);

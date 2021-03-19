@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "shiningrubies:ruby_block"
+    "shiningrubies:ruby_block",
+	"shiningrubies:titanium_block"
   ]
 }

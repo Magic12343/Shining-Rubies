@@ -25,17 +25,17 @@ public class OreGeneration {
 	public static void generateOres(final BiomeLoadingEvent event) {
 		if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-					BlockInit.RUBY_ORE.get().getDefaultState(), 30, 5, 15, 60);
+					BlockInit.RUBY_ORE.get().getDefaultState(), 6, 5, 15, 10);}
 			
-		if (!(event.getCategory().equals(Biome.Category.THEEND))) {
+			else if (!(event.getCategory().equals(Biome.Category.THEEND))) {
 				generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_NETHER,
-						BlockInit.TITANIUM_ORE.get().getDefaultState(), 9, 10, 150, 16);
+						BlockInit.TITANIUM_ORE.get().getDefaultState(), 6, 10, 150, 10);
 		
 			
-		}}
+		}
 	}
 	
-	
+	     
 	private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state,
 			int veinSize, int minHeight, int maxHeight, int amount) {
 		settings.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES,

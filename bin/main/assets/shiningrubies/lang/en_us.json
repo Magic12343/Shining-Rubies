@@ -1,12 +1,24 @@
 {
   "block.shiningrubies.ruby_ore": "Ruby Ore",
   "block.shiningrubies.ruby_block": "Ruby Block",
+  "block.shiningrubies.ruby_lantern": "Ruby Lantern",
+  "block.shiningrubies.ruby_torch": "Ruby Torch",
+  "block.shiningrubies.cave_lantern": "Cave Lantern",
+  "block.shiningrubies.ruby_o_lantern": "Meloh O Lantern",
+  
+  "block.shiningrubies.titanium_ore": "Titanium Ore",
+  "block.shiningrubies.titanium_block": "Titanium Block",
+  "block.shiningrubies.titanium_lantern": "Titanium Lantern",
   
   "item.shiningrubies.ruby": "Ruby",
+  "item.shiningrubies.ruby_powder": "Ruby Powder",
   "item.shiningrubies.rubyrithe_sword": "Rubyrithe Sword",
   "item.shiningrubies.rubyrithe_pickaxe": "Rubyrithe  Pickaxe",
   "item.shiningrubies.rubyrithe_shovel": "Rubyrithe Shovel",
   "item.shiningrubies.rubyrithe_axe": "Rubyrithe Axe",
-  "item.shiningrubies.rubyrithe_hoe": "Rubyrithe Hoe"
+  "item.shiningrubies.rubyrithe_hoe": "Rubyrithe Hoe",
+  
+  "item.shiningrubies.titanium_piece": "Titanium Piece",
+  "item.shiningrubies.titanium_ingot": "Titanium Ingot"
 
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    },
+    "X": {
+      "item": "shiningrubies:titanium_piece"
+    }
+  },
+  "result": {
+    "item": "shiningrubies:titanium_lantern"
+  }
+}
