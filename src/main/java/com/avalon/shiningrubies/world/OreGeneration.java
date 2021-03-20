@@ -25,11 +25,11 @@ public class OreGeneration {
 	public static void generateOres(final BiomeLoadingEvent event) {
 		if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
 			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-					BlockInit.RUBY_ORE.get().getDefaultState(), 6, 5, 15, 10);}
+					BlockInit.RUBY_ORE.get().getDefaultState(), 6, 5, 15, 5);}
 			
 			else if (!(event.getCategory().equals(Biome.Category.THEEND))) {
 				generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_NETHER,
-						BlockInit.TITANIUM_ORE.get().getDefaultState(), 6, 10, 150, 10);
+						BlockInit.TITANIUM_ORE.get().getDefaultState(), 6, 10, 150, 5);
 		
 			
 		}

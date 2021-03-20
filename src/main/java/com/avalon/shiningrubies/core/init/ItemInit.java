@@ -65,7 +65,10 @@ public class ItemInit {
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
 	public static final RegistryObject<BlockItem> TITANIUM_DOOR = ITEMS.register("titanium_door",
 			() -> new BlockItem(BlockInit.TITANIUM_DOOR.get(),
-					new Item.Properties().group(ItemGroup.DECORATIONS)));
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> TITANIUM_TRAPDOOR = ITEMS.register("titanium_trapdoor",
+			() -> new BlockItem(BlockInit.TITANIUM_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
 	
 	public static final RegistryObject<BlockItem> RUBY_O_LANTERN = ITEMS.register("ruby_o_lantern",
 			() -> new BlockItem(BlockInit.RUBY_O_LANTERN.get(),

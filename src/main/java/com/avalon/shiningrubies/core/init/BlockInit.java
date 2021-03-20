@@ -18,6 +18,7 @@ import net.minecraft.block.LanternBlock;
 import net.minecraft.block.PaneBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.TorchBlock;
+import net.minecraft.block.TrapDoorBlock;
 import net.minecraft.block.WallTorchBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -69,8 +70,11 @@ public class BlockInit {
 			() -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.IRON).setRequiresTool().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid()));
 	public static final RegistryObject<Block> TITANIUM_BARS = BLOCKS.register("titanium_bars", 
 			() -> new PaneBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.AIR).setRequiresTool().hardnessAndResistance(5.0F, 6.0F).sound(SoundType.METAL).notSolid()));
-	public static final RegistryObject<Block> TITANIUM_CHAIN = BLOCKS.register("titanium_bars", 
+	public static final RegistryObject<Block> TITANIUM_CHAIN = BLOCKS.register("titanium_chain", 
 			() -> new ChainBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.AIR).setRequiresTool().hardnessAndResistance(5.0F, 6.0F).sound(SoundType.CHAIN).notSolid()));
+	public static final RegistryObject<Block> TITANIUM_TRAPDOOR = BLOCKS.register("titanium_trapdoor", 
+			() -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.IRON).setRequiresTool().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid()));
+	
 	
 	public static AbstractBlock.Properties getProperties(Material materialIn, float hardnessAndResistanceIn) {
         return getProperties(materialIn, hardnessAndResistanceIn, hardnessAndResistanceIn);

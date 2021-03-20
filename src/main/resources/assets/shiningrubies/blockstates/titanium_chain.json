@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "shiningrubies:block/titanium_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "shiningrubies:block/titanium_chain"
+    },
+    "axis=z": {
+      "model": "shiningrubies:block/titanium_chain",
+      "x": 90
+    }
+  }
+}

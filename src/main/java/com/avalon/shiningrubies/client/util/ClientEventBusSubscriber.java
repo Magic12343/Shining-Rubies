@@ -22,6 +22,10 @@ public class ClientEventBusSubscriber {
 		
 		RenderTypeLookup.setRenderLayer(BlockInit.RUBY_LANTERN.get(), RenderType.getCutoutMipped());
 		RenderTypeLookup.setRenderLayer(BlockInit.TITANIUM_LANTERN.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.TITANIUM_CHAIN.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.TITANIUM_BARS.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.TITANIUM_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.TITANIUM_TRAPDOOR.get(), RenderType.getCutoutMipped());
 
 
 ;
