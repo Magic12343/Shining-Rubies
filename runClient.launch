@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Shining Rubies"/>
+<listEntry value="/Caverns"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
@@ -12,14 +12,14 @@
 <mapEntry key="MCP_MAPPINGS" value="snapshot_20201028-1.16.3"/>
 <mapEntry key="MCP_VERSION" value="20201102.104115"/>
 <mapEntry key="MC_VERSION" value="1.16.4"/>
-<mapEntry key="MOD_CLASSES" value="examplemod%%C:\Users\Magic\Desktop\MC MODDING\Shining Rubies\bin\main;examplemod%%C:\Users\Magic\Desktop\MC MODDING\Shining Rubies\bin\main"/>
+<mapEntry key="MOD_CLASSES" value="examplemod%%C:\Users\Magic\Desktop\MC MODDING\Caverns\bin\main;examplemod%%C:\Users\Magic\Desktop\MC MODDING\Caverns\bin\main"/>
 <mapEntry key="assetDirectory" value="C:\Users\Magic\.gradle\caches\forge_gradle\assets"/>
 <mapEntry key="assetIndex" value="1.16"/>
-<mapEntry key="nativesDirectory" value="C:\Users\Magic\Desktop\MC MODDING\Shining Rubies\build\natives"/>
+<mapEntry key="nativesDirectory" value="C:\Users\Magic\Desktop\MC MODDING\Caverns\build\natives"/>
 <mapEntry key="target" value="fmluserdevclient"/>
 </mapAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="net.minecraftforge.userdev.LaunchTesting"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Shining Rubies"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Caverns"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump &quot;-Dos.name=Windows 10&quot; -Dos.version=10.0"/>
-<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\Magic\Desktop\MC MODDING\Shining Rubies\run"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\Magic\Desktop\MC MODDING\Caverns\run"/>
 </launchConfiguration>

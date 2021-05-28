@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caverns:polished_diatomite"
+  },
+  "result": "caverns:polished_diatomite_slab",
+  "count": 2
+}

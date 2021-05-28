@@ -7,13 +7,13 @@
   ],
   "key": {
     "S": {
-      "item": "shiningrubies:ruby_powder"
+      "item": "caverns:ruby_powder"
     },
     "C": {
       "item": "minecraft:glowstone_dust"
     }
   },
   "result": {
-    "item": "shiningrubies:cave_lantern"
+    "item": "caverns:cave_lantern"
   }
 }

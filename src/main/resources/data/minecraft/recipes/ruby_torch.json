@@ -18,11 +18,11 @@
       "item": "minecraft:stick"
     },
     "S": {
-      "item": "shiningrubies:ruby_powder"
+      "item": "caverns:ruby_powder"
     }
   },
   "result": {
-    "item": "shiningrubies:ruby_torch",
+    "item": "caverns:ruby_torch",
     "count": 4
   }
 }

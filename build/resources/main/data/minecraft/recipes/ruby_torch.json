@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "S"
+  ],
+  "key": {
+    "X": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "shiningrubies:ruby_powder"
+    }
+  },
+  "result": {
+    "item": "shiningrubies:ruby_torch",
+    "count": 4
+  }
+}

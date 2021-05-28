@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caverns:block/polished_diatomite_slab"
+    },
+    "type=double": {
+      "model": "caverns:block/polished_diatomite"
+    },
+    "type=top": {
+      "model": "caverns:block/polished_diatomite_slab_top"
+    }
+  }
+}

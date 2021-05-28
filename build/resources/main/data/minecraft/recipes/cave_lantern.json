@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CCC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "shiningrubies:ruby_powder"
+    },
+    "C": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "shiningrubies:cave_lantern"
+  }
+}

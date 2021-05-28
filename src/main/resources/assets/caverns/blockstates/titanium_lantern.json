@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "caverns:block/titanium_lantern"
+    },
+    "hanging=true": {
+      "model": "caverns:block/titanium_lantern_hanging"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "caverns:diatomite"
+    }
+  },
+  "result": {
+    "item": "caverns:polished_diatomite",
+    "count": 4
+  }
+}

@@ -3,11 +3,11 @@
   "group": "ruby",
   "ingredients": [
     {
-      "item": "shiningrubies:titanium_ingot"
+      "item": "caverns:titanium_ingot"
     }
   ],
   "result": {
-    "item": "shiningrubies:titanium_piece",
+    "item": "caverns:titanium_piece",
     "count": 9
   }
 }

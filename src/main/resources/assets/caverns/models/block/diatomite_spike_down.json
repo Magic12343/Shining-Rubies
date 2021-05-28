@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "caverns:blocks/diatomite_spike_down"
+  }
+}

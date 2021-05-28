@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ruby",
+  "ingredients": [
+    {
+      "item": "shiningrubies:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "shiningrubies:titanium_ingot",
+    "count": 9
+  }
+}

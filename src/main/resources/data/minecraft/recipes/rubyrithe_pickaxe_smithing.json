@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_pickaxe"
   },
   "addition": {
-    "item": "shiningrubies:ruby"
+    "item": "caverns:ruby"
   },
   "result": {
-    "item": "shiningrubies:rubyrithe_pickaxe"
+    "item": "caverns:rubyrithe_pickaxe"
   }
 }

@@ -10,10 +10,10 @@
       "item": "minecraft:magma_cream"
     },
     "X": {
-      "item": "shiningrubies:titanium_piece"
+      "item": "caverns:titanium_piece"
     }
   },
   "result": {
-    "item": "shiningrubies:titanium_lantern"
+    "item": "caverns:titanium_lantern"
   }
 }

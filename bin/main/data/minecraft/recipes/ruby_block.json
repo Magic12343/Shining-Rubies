@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "shiningrubies:ruby"
+      "item": "caverns:ruby"
     }
   },
   "result": {
-    "item": "shiningrubies:ruby_block"
+    "item": "caverns:ruby_block"
   }
 }
