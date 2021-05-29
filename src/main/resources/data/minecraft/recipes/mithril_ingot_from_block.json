@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ruby",
+  "ingredients": [
+    {
+      "item": "caverns:mithril_block"
+    }
+  ],
+  "result": {
+    "item": "caverns:mithril_ingot",
+    "count": 9
+  }
+}

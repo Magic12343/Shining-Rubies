@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns:endia_powder"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    },
+    {
+      "item": "caverns:mithril_ingot"
+    }
+  ],
+  "result": {
+    "item": "caverns:titanium_ingot",
+    "count": 1
+  }
+}

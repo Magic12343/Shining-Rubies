@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_shovel"
   },
   "addition": {
-    "item": "shiningrubies:ruby"
+    "item": "caverns:ruby"
   },
   "result": {
-    "item": "shiningrubies:rubyrithe_shovel"
+    "item": "caverns:rubyrithe_shovel"
   }
 }

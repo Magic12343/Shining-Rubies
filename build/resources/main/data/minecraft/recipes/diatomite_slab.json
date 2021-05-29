@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caverns:diatomite"
+    }
+  },
+  "result": {
+    "item": "caverns:diatomite_slab",
+    "count": 6
+  }
+}

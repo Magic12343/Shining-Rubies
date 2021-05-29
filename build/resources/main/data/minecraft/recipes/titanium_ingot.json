@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "shiningrubies:titanium_piece"
+      "item": "caverns:titanium_piece"
     }
   },
   "result": {
-    "item": "shiningrubies:titanium_ingot"
+    "item": "caverns:titanium_ingot"
   }
 }

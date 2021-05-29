@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "caverns:mithril_chunk"
+  },
+  "result": "caverns:mithril_ingot",
+  "experience": 0.35,
+  "cookingtime": 200
+}

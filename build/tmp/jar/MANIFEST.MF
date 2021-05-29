@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: Shining Rubies
+Implementation-Title: Caverns
 Implementation-Version: 1.0
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2021-03-19T21:06:29-0300
+Implementation-Timestamp: 2021-05-28T00:58:21-0300
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 

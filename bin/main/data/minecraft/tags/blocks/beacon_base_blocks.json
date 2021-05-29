@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "caverns:ruby_block",
-	"caverns:titanium_block"
+	"caverns:titanium_block",
+	"caverns:mithril_block"
   ]
 }

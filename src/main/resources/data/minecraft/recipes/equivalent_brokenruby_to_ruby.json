@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns:endia_powder"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "caverns:ruby_powder"
+    }
+  ],
+  "result": {
+    "item": "caverns:ruby",
+    "count": 1
+  }
+}

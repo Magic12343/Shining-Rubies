@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "caverns:blocks/titanium_door_top",
+    "bottom": "caverns:blocks/titanium_door_top"
+  }
+}

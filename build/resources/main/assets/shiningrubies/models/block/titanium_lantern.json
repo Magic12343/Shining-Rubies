@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_lantern",
-  "textures": {
-    "lantern": "shiningrubies:blocks/titanium_lantern"
-  }
-}

@@ -1,8 +1,12 @@
 package com.avalon.caverns.core.init;
 
 import com.avalon.caverns.Caverns;
+import com.avalon.caverns.CavernsArmor;
+import com.avalon.caverns.CavernsTiers;
 
 import net.minecraft.block.Blocks;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.HoeItem;
@@ -27,6 +31,37 @@ public class ItemInit {
 	//Items
     public static final RegistryObject<Item> RUBY_ITEM = ITEMS.register("ruby", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 	public static final RegistryObject<Item> RUBY_POWDER = ITEMS.register("ruby_powder", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+	
+	public static final RegistryObject<SwordItem> RUBYRITHE_SWORD = ITEMS.register("rubyrithe_sword",
+			() -> new SwordItem(CavernsTiers.RUBYRITHE, 8, -2.4f,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+
+	public static final RegistryObject<PickaxeItem> RUBYRITHE_PICKAXE = ITEMS.register("rubyrithe_pickaxe",
+			() -> new PickaxeItem(CavernsTiers.RUBYRITHE, 2, -2.8f,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+
+	public static final RegistryObject<ShovelItem> RUBYRITHE_SHOVEL = ITEMS.register("rubyrithe_shovel",
+			() -> new ShovelItem(CavernsTiers.RUBYRITHE, 2.5f, -3.0f,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+
+	public static final RegistryObject<AxeItem> RUBYRITHE_AXE = ITEMS.register("rubyrithe_axe",
+			() -> new AxeItem(CavernsTiers.RUBYRITHE, 9.5f, -3.0f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+
+	public static final RegistryObject<HoeItem> RUBYRITHE_HOE = ITEMS.register("rubyrithe_hoe",
+			() -> new HoeItem(CavernsTiers.RUBYRITHE, 1, 0.0f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+	
+	public static final RegistryObject<ArmorItem> RUBYRITHE_HELMET = ITEMS.register("rubyrithe_helmet",
+			() -> new ArmorItem(CavernsArmor.RUBYRITHE, EquipmentSlotType.HEAD,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+	public static final RegistryObject<ArmorItem> RUBYRITHE_CHESTPLATE = ITEMS.register("rubyrithe_chestplate",
+			() -> new ArmorItem(CavernsArmor.RUBYRITHE, EquipmentSlotType.CHEST,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+	public static final RegistryObject<ArmorItem> RUBYRITHE_LEGGINGS = ITEMS.register("rubyrithe_leggings",
+			() -> new ArmorItem(CavernsArmor.RUBYRITHE, EquipmentSlotType.LEGS,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
+	public static final RegistryObject<ArmorItem> RUBYRITHE_BOOTS = ITEMS.register("rubyrithe_boots",
+			() -> new ArmorItem(CavernsArmor.RUBYRITHE, EquipmentSlotType.FEET,
+					new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()));
 	
 	public static final RegistryObject<Item> TITANIUM_PIECE = ITEMS.register("titanium_piece", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 	public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
@@ -59,6 +94,7 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> RUBY_LANTERN = ITEMS.register("ruby_lantern",
 			() -> new BlockItem(BlockInit.RUBY_LANTERN.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	
 	public static final RegistryObject<BlockItem> TITANIUM_LANTERN = ITEMS.register("titanium_lantern",
 			() -> new BlockItem(BlockInit.TITANIUM_LANTERN.get(),
 					new Item.Properties().group(ItemGroup.DECORATIONS)));
@@ -131,6 +167,29 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> MITHRIL_ORE = ITEMS.register("mithril_ore",
 			() -> new BlockItem(BlockInit.MITHRIL_ORE.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> MITHRIL_BLOCK = ITEMS.register("mithril_block",
+			() -> new BlockItem(BlockInit.MITHRIL_BLOCK.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> MITHRIL_LANTERN = ITEMS.register("mithril_lantern",
+			() -> new BlockItem(BlockInit.MITHRIL_LANTERN.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<BlockItem> MITHRIL_CHAIN = ITEMS.register("mithril_chain",
+			() -> new BlockItem(BlockInit.MITHRIL_CHAIN.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<BlockItem> MITHRIL_BARS = ITEMS.register("mithril_bars",
+			() -> new BlockItem(BlockInit.MITHRIL_BARS.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<BlockItem> MITHRIL_DOOR = ITEMS.register("mithril_door",
+			() -> new BlockItem(BlockInit.MITHRIL_DOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> MITHRIL_TRAPDOOR = ITEMS.register("mithril_trapdoor",
+			() -> new BlockItem(BlockInit.MITHRIL_TRAPDOOR.get(),
+					new Item.Properties().group(ItemGroup.REDSTONE)));
+	public static final RegistryObject<BlockItem> ELECTRIC_FENCE = ITEMS.register("electric_fence",
+			() -> new BlockItem(BlockInit.ELECTRIC_FENCE.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	
 	
 	public static final RegistryObject<BlockItem> ENDIA_ORE = ITEMS.register("endia_ore",
 			() -> new BlockItem(BlockInit.ENDIA_ORE.get(),

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "caverns:block/ruby_block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "caverns:blocks/mithril_door_bottom",
+    "bottom": "caverns:blocks/mithril_door_bottom"
+  }
+}

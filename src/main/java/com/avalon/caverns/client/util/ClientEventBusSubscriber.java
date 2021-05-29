@@ -29,6 +29,12 @@ public class ClientEventBusSubscriber {
 		
 		RenderTypeLookup.setRenderLayer(BlockInit.CAVE_MUSHROOM.get(), RenderType.getCutoutMipped());
 		
+		RenderTypeLookup.setRenderLayer(BlockInit.MITHRIL_LANTERN.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.MITHRIL_CHAIN.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.MITHRIL_BARS.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.MITHRIL_DOOR.get(), RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(BlockInit.MITHRIL_TRAPDOOR.get(), RenderType.getCutoutMipped());
+		
 
 
 ;

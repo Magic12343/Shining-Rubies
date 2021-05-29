@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "WWW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "caverns:mithril_ingot"
+    }
+  },
+  "result": {
+    "item": "caverns:electric_fence",
+    "count": 3
+  }
+}

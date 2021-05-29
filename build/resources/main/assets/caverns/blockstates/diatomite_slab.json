@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caverns:block/diatomite_slab"
+    },
+    "type=double": {
+      "model": "caverns:block/diatomite"
+    },
+    "type=top": {
+      "model": "caverns:block/diatomite_slab_top"
+    }
+  }
+}

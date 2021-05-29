@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns:endia_powder"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    },
+    {
+      "item": "caverns:titanium_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 1
+  }
+}

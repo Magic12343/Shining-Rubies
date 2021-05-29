@@ -32,7 +32,7 @@ public class OreGeneration {
 			
 			else if (!(event.getCategory().equals(Biome.Category.THEEND))) {
 				generateOre(event.getGeneration(), CavernFeatureConfig.FillerBlockType.BLACKSTONEGEN,
-						BlockInit.TITANIUM_ORE.get().getDefaultState(), 6, 10, 150, 5);}
+						BlockInit.TITANIUM_ORE.get().getDefaultState(), 6, 10, 150, 8);}
 			
 		}
 	

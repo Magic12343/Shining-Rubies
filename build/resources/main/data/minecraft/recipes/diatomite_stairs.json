@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "caverns:diatomite"
+    }
+  },
+  "result": {
+    "item": "caverns:diatomite_stairs",
+    "count": 4
+  }
+}

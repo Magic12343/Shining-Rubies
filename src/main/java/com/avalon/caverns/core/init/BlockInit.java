@@ -4,6 +4,7 @@ import java.util.function.ToIntFunction;
 
 import com.avalon.caverns.Caverns;
 import com.avalon.caverns.common.blocks.CaveMushroomBlock;
+import com.avalon.caverns.common.blocks.ElectricFenceBlock;
 import com.avalon.caverns.common.blocks.RubyTorchBlock;
 import com.avalon.caverns.common.blocks.RubyWallTorchBlock;
 import com.avalon.caverns.common.blocks.SpikeBlock;
@@ -15,6 +16,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.CarvedPumpkinBlock;
 import net.minecraft.block.ChainBlock;
 import net.minecraft.block.DoorBlock;
+import net.minecraft.block.FenceBlock;
 import net.minecraft.block.GlassBlock;
 import net.minecraft.block.LanternBlock;
 import net.minecraft.block.MushroomBlock;
@@ -121,6 +123,22 @@ public class BlockInit {
 	public static final RegistryObject<Block> MITHRIL_ORE = BLOCKS.register("mithril_ore", 
 			() -> new Block(Block.Properties.from(Blocks.DIAMOND_ORE).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));
 	
+	public static final RegistryObject<Block> MITHRIL_BLOCK = BLOCKS.register("mithril_block", 
+			() -> new Block(Block.Properties.from(Blocks.DIAMOND_ORE).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));
+	public static final RegistryObject<Block> MITHRIL_LANTERN = BLOCKS.register("mithril_lantern", 
+			() -> new LanternBlock(AbstractBlock.Properties.create(Material.IRON).setRequiresTool().hardnessAndResistance(3.5F).sound(SoundType.LANTERN).setLightLevel((state) -> {
+			      return 15;
+			   }).notSolid()));
+	public static final RegistryObject<Block> MITHRIL_DOOR = BLOCKS.register("mithril_door", 
+			() -> new DoorBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.IRON).setRequiresTool().hardnessAndResistance(3.0F).sound(SoundType.METAL).notSolid()));
+	public static final RegistryObject<Block> MITHRIL_BARS = BLOCKS.register("mithril_bars", 
+			() -> new PaneBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.AIR).setRequiresTool().hardnessAndResistance(3.0f, 3.0f).sound(SoundType.METAL).notSolid()));
+	public static final RegistryObject<Block> MITHRIL_CHAIN = BLOCKS.register("mithril_chain", 
+			() -> new ChainBlock(AbstractBlock.Properties.create(Material.IRON, MaterialColor.AIR).setRequiresTool().hardnessAndResistance(3.0f, 3.0f).sound(SoundType.CHAIN).notSolid()));
+	public static final RegistryObject<Block> MITHRIL_TRAPDOOR = BLOCKS.register("mithril_trapdoor", 
+			() -> new TrapDoorBlock(AbstractBlock.Properties.create(Material.IRON).setRequiresTool().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid()));
+	public static final RegistryObject<Block> ELECTRIC_FENCE = BLOCKS.register("electric_fence", 
+			() -> new ElectricFenceBlock(Block.Properties.from(Blocks.DIAMOND_ORE).harvestLevel(3).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f).sound(SoundType.METAL)));
 	//Endia
 	public static final RegistryObject<Block> ENDIA_ORE = BLOCKS.register("endia_ore", 
 			() -> new Block(Block.Properties.from(Blocks.DIAMOND_ORE).harvestLevel(4).harvestTool(ToolType.PICKAXE).hardnessAndResistance(3.0f, 3.0f)));

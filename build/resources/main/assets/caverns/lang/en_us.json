@@ -1,0 +1,47 @@
+{
+  "block.caverns.ruby_ore": "Ruby Ore",
+  "block.caverns.ruby_block": "Ruby Block",
+  "block.caverns.ruby_lantern": "Ruby Lantern",
+  "block.caverns.ruby_torch": "Ruby Torch",
+  "block.caverns.cave_lantern": "Cave Lantern",
+  "block.caverns.ruby_o_lantern": "Meloh O Lantern",
+  
+  "block.caverns.titanium_ore": "Titanium Ore",
+  "block.caverns.titanium_block": "Titanium Block",
+  "block.caverns.titanium_lantern": "Titanium Lantern",
+  "block.caverns.titanium_door": "Titanium Door",
+  "block.caverns.titanium_trapdoor": "Titanium Trapdoor",
+  "block.caverns.titanium_bars": "Titanium Bars",
+  "block.caverns.titanium_chain": "Titanium Chain",
+  
+  "item.caverns.ruby": "Ruby",
+  "item.caverns.ruby_powder": "Ruby Powder",
+  "item.caverns.rubyrithe_sword": "Rubyrithe Sword",
+  "item.caverns.rubyrithe_pickaxe": "Rubyrithe  Pickaxe",
+  "item.caverns.rubyrithe_shovel": "Rubyrithe Shovel",
+  "item.caverns.rubyrithe_axe": "Rubyrithe Axe",
+  "item.caverns.rubyrithe_hoe": "Rubyrithe Hoe",
+  
+  "item.caverns.titanium_piece": "Titanium Piece",
+  "item.caverns.titanium_ingot": "Titanium Ingot",
+  
+  "block.caverns.diatomite": "Diatomite",
+  "block.caverns.diatomite_slab": "Diatomite Slab",
+  "block.caverns.diatomite_stairs": "Diatomite Stairs",
+  
+  "block.caverns.polished_diatomite": "Polished Diatomite",
+  "block.caverns.polished_diatomite_slab": "Polished Diatomite Slab",
+  "block.caverns.polished_diatomite_stairs": "Polished Diatomite Stairs",
+  
+  "block.caverns.fossil_diatomite": "Diatomite Fossil",
+  
+  "block.caverns.mithril_ore": "Mithril Ore",
+  "item.caverns.mithril_chunk": "Mithril Chunk",
+  "item.caverns.mithril_ingot": "Mithril Ingot",
+  
+  "block.caverns.endia_ore": "Endia Ore",
+  "item.caverns.endia_powder": "Endia Powder",
+  
+  "block.caverns.cave_mushroom": "Cave Mushroom"
+
+}

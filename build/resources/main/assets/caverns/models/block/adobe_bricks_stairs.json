@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "caverns:blocks/adobe_bricks",
+    "top": "caverns:blocks/adobe_bricks",
+    "side": "caverns:blocks/adobe_bricks"
+  }
+}
