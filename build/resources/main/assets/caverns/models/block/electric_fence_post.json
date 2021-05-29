@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "caverns:blocks/electric_fence"
+  }
+}

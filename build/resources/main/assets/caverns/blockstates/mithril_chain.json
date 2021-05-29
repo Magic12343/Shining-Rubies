@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "caverns:block/mithril_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "caverns:block/mithril_chain"
+    },
+    "axis=z": {
+      "model": "caverns:block/mithril_chain",
+      "x": 90
+    }
+  }
+}

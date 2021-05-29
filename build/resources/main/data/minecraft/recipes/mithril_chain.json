@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "key": {
+    "I": {
+      "item": "caverns:mithril_ingot"
+    },
+    "N": {
+      "item": "caverns:mithril_chunk"
+    }
+  },
+  "result": {
+    "item": "caverns:mithril_chain"
+  }
+}

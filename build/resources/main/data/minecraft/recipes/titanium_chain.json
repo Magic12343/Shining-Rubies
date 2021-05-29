@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "key": {
+    "I": {
+      "item": "caverns:titanium_ingot"
+    },
+    "N": {
+      "item": "caverns:titanium_piece"
+    }
+  },
+  "result": {
+    "item": "caverns:titanium_chain"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns:endia_powder"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  }
+}

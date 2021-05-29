@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "caverns:titanium_trapdoor"
+    "caverns:titanium_trapdoor",
+	"caverns:mithril_trapdoor"
   ]
 }
